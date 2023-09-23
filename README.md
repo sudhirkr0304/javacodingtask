@@ -15,6 +15,21 @@ Technology used :
     1. Java 17 
     
     2. Spring Boot 3.1.3
+
+    3. Mysql Database 
+
+
+How to Run the application : 
+   
+    1. checkout the code.
+    
+    2. download all the dependency to run the application
+
+    3. download mysql database
+
+    4. change username and password in application.properties that matches your mysql username/password.
+
+    5. run the main spring boot class.
     
   
     
