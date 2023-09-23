@@ -42,6 +42,8 @@ public class ApplicationConfig {
 
         authenticationProvider.setPasswordEncoder(passwordEncoder());
 
+
+
         return authenticationProvider;
     }
 

@@ -1,4 +1,4 @@
-package com.sudhirkumar.javacodingtask.auth;
+package com.sudhirkumar.javacodingtask.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,10 +9,14 @@ import lombok.NoArgsConstructor;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class RegisterRequest {
+public class UserDetailResponse {
 
-    private String name;
-    private String email;
-    private String password;
+    String name;
 
+
+    String email;
+
+    String username;
+
+    Role role;
 }

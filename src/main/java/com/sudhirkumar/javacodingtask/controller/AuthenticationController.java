@@ -1,5 +1,8 @@
-package com.sudhirkumar.javacodingtask.auth;
+package com.sudhirkumar.javacodingtask.controller;
 
+import com.sudhirkumar.javacodingtask.model.AuthenticationRequest;
+import com.sudhirkumar.javacodingtask.model.AuthenticationResponse;
+import com.sudhirkumar.javacodingtask.service.AuthenticationService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -17,7 +20,7 @@ public class AuthenticationController {
 
     @PostMapping("/register")
     public ResponseEntity<AuthenticationResponse> register(
-            @RequestBody RegisterRequest request
+            @RequestBody AuthenticationRequest.RegisterRequest request
     ) {
         return ResponseEntity.ok(authenticationService.register(request));
     }
