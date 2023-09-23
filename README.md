@@ -3,9 +3,20 @@
 Spring boot application to demonstrate public and secured apis with different roles.
 
 Features : 
-    1. registration and login with JWT token.
+   
+    1. registration and login with JWT token. 
+    
     2. password encryption using B-crypt.
+    
     3. Role based authorization.
+
+Technology used : 
+   
+    1. Java 17 
+    
+    2. Spring Boot 3.1.3
+    
+  
     
 
 
